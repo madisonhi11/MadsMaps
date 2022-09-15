@@ -23,13 +23,14 @@ export const Footer = () => {
             </div>
             <div>  
              <Link to='/friendlist'><b>Friend List</b></Link> 
-              <p>Add Your friends </p>
+             
+              <p>Contact Page- Add Your Friends  </p>
               
             </div>
             <div>
             <Link to='/favorites'> <b>CLT Map</b></Link>
              <p>Get directions for CLT Restaurants </p>
-              <p>Track your Favorite Restaurant</p>
+              <p>Look at Suggestions</p>
             
             </div>
           
