@@ -37,15 +37,15 @@ const FriendList = () => {
       setTodos(updatedTodos);
     }
   
-    function toggleComplete(id) {
-      let updatedTodos = [...todos].map((todo) => {
-        if (todo.id === id) {
-          todo.completed = !todo.completed;
-        }
-        return todo;
-      });
-      setTodos(updatedTodos);
-    }
+    // function toggleComplete(id) {
+    //   let updatedTodos = [...todos].map((todo) => {
+    //     if (todo.id === id) {
+    //       todo.completed = !todo.completed;
+    //     }
+    //     return todo;
+    //   });
+    //   setTodos(updatedTodos);
+    // }
   
     function submitEdits(id) {
       const updatedTodos = [...todos].map((todo) => {
